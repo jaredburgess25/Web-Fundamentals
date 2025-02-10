@@ -1,6 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section{
+    text-align: center;
+}
+
+#background {
+    background-color: #FFD60A;
+    height: 725px;
+}
+
 body { 
     background-color: #FFD60A;
     font-family: "Red Hat Display", Helvetica, sans-serif;
@@ -8,25 +36,17 @@ body {
     margin: 0;
     padding: 0;
 }
-h2 {
-    margin: 0;
-}
+
 header {
     background-color:#003566;
+    font-family: "Item";
 }
+
 nav a:hover {
     background-color: #396E94;
     color: white;
 }
-.home-title{
-    color: black;
-    font-family: "Item";
-    font-size: 2em;
-    margin-top: 10px;
-}
-h4{
-    color: black;
-}
+
 .book, .join {
     background-color: #003566;
     color: white;
@@ -36,14 +56,20 @@ h4{
     margin-top: 50px;
     border-radius: 5px;
 }
-.book:hover{
-    background-color: #396E94
+
+.book:hover, .join:hover{
+    background-color: #396E94;
+    color: #003566;
 } 
-.join:hover{
-    background-color: #396E94
+
+h2 {
+    margin: 0;
 }
-#background {
-    background-color: #FFD60A;
+.home-title{
+    color: black;
+    font-family: "Item";
+    font-size: 2em;
+    margin-top: 10px;
 }
 .msg {
    background-color: #396E94;
@@ -58,6 +84,10 @@ h4{
     font-family: "Red Hat Display", Helvetica, sans-serif;
     font-size: 0.8em;
     padding-bottom: 15px;
+}
+
+h4{
+    color: black;
 }
 footer{ 
     background-color:#003566;
@@ -78,22 +108,28 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 } 
-foooter .social img{
+
+footer .social img{
     padding-top: 15px;
 }
-nav a {
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    padding: 35px;
+
+.logo{
+    width: 80px
 }
+
 #logo-link {
     padding-top: 5px;
 }
 .icon{
-    padding-top: 10px;
+    padding-top: 35px;
+    width: 80px;
 }
-.rivers-card, .camping-card, .rapids-card{
+
+#hero-img{
+    width:100%;
+}
+
+.river-card, .camping-card, .rapids-card{
     margin: 200px 0;
 }
 .card-img{
