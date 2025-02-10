@@ -1,5 +1,12 @@
 body { 
     background-color: #FFD60A;
+    font-family: "Red Hat Display", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color:#003566;
@@ -10,6 +17,9 @@ nav a:hover {
 }
 .home-title{
     color: black;
+    font-family: "Item";
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: black;
@@ -17,6 +27,11 @@ h4{
 .book, .join {
     background-color: #003566;
     color: white;
+    font-family: "Red Hat Display", Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: #396E94
@@ -29,16 +44,23 @@ h4{
 }
 .msg {
    background-color: #396E94;
+   line-height: 1.5em;
+   padding: 35px;
 }
 .msp h2{
     color: white;
 }
 .msg p{
     color: white;
+    font-family: "Red Hat Display", Helvetica, sans-serif;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 footer{ 
     background-color:#003566;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: white;
@@ -53,8 +75,27 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 } 
+foooter .social img{
+    padding-top: 15px;
+}
 nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
+}
+#logo-link {
+    padding-top: 5px;
+}
+.icon{
+    padding-top: 10px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid black;
+}
+main section img{
+    box-sizing: border-box;
 }
