@@ -1,7 +1,8 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -41,7 +42,7 @@ img {
   margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(Comorant);
+  font-family: 'Cormorant', 'Times New Roman';
   color: var(--headline-color-on-white);
 }
 h2 {
@@ -63,7 +64,7 @@ header > h1, header > h2 {
 }
 
 p {
-  font-family: var(DM Sans);
+  font-family: 'DM Sans', Arial;
   color: var(--paragraph-color-on-white);
   padding: 1em;
 }
